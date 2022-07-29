@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="AmazonTest(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.CreateAccountPageTest">
+        <methods>
+          <include name="emptyNmErrTest"/>
+          <include name="emptypwdErrTest"/>
+          <include name="passwordSizeErrTest"/>
+          <include name="tearDown"/>
+          <include name="businessAccLinkTest"/>
+          <include name="nonIdenticalpwdErrTest"/>
+          <include name="conditionLinkTest"/>
+          <include name="privacyLinkTest"/>
+          <include name="setUp"/>
+          <include name="emptyEmailErrTest"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CreateAccountPageTest -->
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="globalLocationTest"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.SignInPageTest">
+        <methods>
+          <include name="correctSignInTest"/>
+          <include name="wrongPassTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SignInPageTest -->
+    </classes>
+  </test> <!-- AmazonTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
